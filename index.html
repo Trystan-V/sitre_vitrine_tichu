@@ -15,33 +15,76 @@
 <body>
 
     <!-- navbar -->
-    <header>
-        <a href="#"><img src="img/logo_navbar.png" alt=""></a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Le projet</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Les cartes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
+    <header role="banner">
+        <nav class="navbar navbar-expand-lg navbar-blue bg-light">
+            <div class="container-fluid" id="logo_navbar">
+                <a class="navbar-brand" href="#"><img src="img/logo_navbar.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Le projet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Les cartes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+
+
+
+
+    <!-- image de fond -->
+
     <div class="container-fluid">
         <div class="row">
-            <img src="img/background_cartes.jpg" alt="" class="">
+            <img src="img/background_cartes.jpg" alt="" class="background_cartes">
         </div>
     </div>
     <!-- le projet -->
 
-    <!-- les cartes -->
+    <div class="container justify-content-center">
+        <div class="row">
+            <h1 class="display-2">Le projet</h1>
+            <p class="display-6">
+                Il s’agit tout simplement de créer mon propre jeu du Tichu avec des illustration faites mains !
+            </p>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <img src="img/symboles.png" alt="" class="symbole">
+                <h2 class="display-3">C’est quoi le Tichu ?</h2>
+                <p class="display-6">
+                    C’est un jeu de cartes originaire de Chine, jouer en Allemagne et en Grèce. C’est un jeu de plis en
+                    équipe.
+                </p>
+            </div>
+            <div class="col">
+                <img src="img/valet.png" alt="" class="valet">
+            </div>
+        </div>
 
-    <!-- carroussel -->
+        <!-- les cartes -->
 
-    <!-- contact -->
+        <!-- carroussel -->
 
+        <!-- contact -->
+
+
+
+        <!-- script -->
+        <link rel="text/javascript" href="js/bootstrap.min.js">
 </body>
 
 </html>
